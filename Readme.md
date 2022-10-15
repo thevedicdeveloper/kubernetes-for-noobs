@@ -1,4 +1,4 @@
-<img align="center" src="assets/banner.jpeg" alt="kubernetes-for-noobs-banner"></img>
+<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/main/assets/banner.jpeg"></img>
 
 <h4 align="center">You Can Read It Anywhere </h4>
 
