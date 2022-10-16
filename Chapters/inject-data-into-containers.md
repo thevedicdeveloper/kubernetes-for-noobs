@@ -4,7 +4,6 @@
 
 <h2 align="center"><a href="https://blogs.thevedicdev.com/kubernetes-for-noobs">Hashnode</a> | <a href="https://dev.to/thevedicdev/kubernetes-for-noobs-425k">Dev.to </a>| <a href="https://medium.com/@thevedicdev/kubernetes-for-noobs-8008ad24e643"> Medium </a> | Hackernoon | <a href="https://github.com/thevedicdev/kubernetes-for-noobs#readme">GitHub</a></h3>
 
----
 Kubernetes provides 6 different ways to inject your data into the Containers.
 
 1. Defining environment variables for a Container.
