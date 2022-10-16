@@ -2,4 +2,4 @@
 
 <h4 align="center">You Can Read It Anywhere </h4>
 
-<h2 align="center"><a href="https://hashnode.thevedicdev.com/kubernetes-for-noobs">Hashnode</a> | Dev.to | Medium | Hackernoon | GitHub</h3>
+<h2 align="center"><a href="https://hashnode.thevedicdev.com/kubernetes-for-noobs">Hashnode</a> | <a href="https://dev.to/thevedicdev/kubernetes-for-noobs-425k">Dev.to </a>| <a href="https://medium.com/@thevedicdev/kubernetes-for-noobs-8008ad24e643"> Medium </a> | Hackernoon | <a href="https://github.com/thevedicdev/kubernetes-for-noobs#readme">GitHub</a></h3>
