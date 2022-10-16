@@ -1,0 +1,1 @@
+<img src=><img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/main/assets/inject-data-into-containers.jpeg"></img>
