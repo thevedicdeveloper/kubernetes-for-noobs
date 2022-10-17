@@ -15,7 +15,7 @@ Kubernetes provides 6 different ways to inject your data into the Containers.
 
 ## Command used for the demonstration
 
-1. Create namespace `<namespace-name>` for the pod.
+1. Create namespace `<namespace-name>` for the pod. (It is advised to run the Pod in a namespace, specially when you are practicing. It will help you to manage all you Kubernetes object for related purpose together.)
 
 ```bash
 kubectl create namespace <namespace-name>
@@ -41,10 +41,16 @@ kubectl apply -f file-name.yaml --namespace=<namespace-name>
       kubectl get pod -l <key1>=<value1>, <key2>=<value2>
       ```
 
-3. Enter into the Container
+4. Enter into the Container running inside the namespace `<namespace-name>`
 
 ```bash
-kubectl exec -it <container-name>
+kubectl exec -it <container-name> --namespace=<namespace-name> /bin/bash
+```
+
+5. Print the Environment Variable
+
+```bash
+printenv
 ```
 
 ## Defining Environment Variables for a Container
@@ -71,4 +77,16 @@ env:
 
 <img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/inject-data-into-containers/assets/inject-data-into-containers/env-var.png"></img>
 
-Here we are providing three data to the appliation running in our container.
+Here we are providing three data to the appliation running in our container my **Twitter**, **LinkedIn** and **GitHub** username.
+
+> It is adviced to use UPPERCASE_WITH_UNDERSCORE to name the environment variable.
+
+#### Practice On Your Own
+> 1. Create a Namesapce for your Pod.
+> 2. Create the Pod.
+> 3. List the running Pod.
+> 4. Enter inside the Container.
+> 5. Print the Environment Variable passed to the Container.
+> 6. Exit the Container.
+> 7. Delete the Namespace.
+
