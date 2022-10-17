@@ -81,12 +81,12 @@ Here we are providing three data to the appliation running in our container my *
 
 > It is adviced to use UPPERCASE_WITH_UNDERSCORE to name the environment variable.
 
-#### Practice On Your Own
-> 1. Create a Namesapce for your Pod.
-> 2. Create the Pod.
-> 3. List the running Pod.
-> 4. Enter inside the Container.
-> 5. Print the Environment Variable passed to the Container.
-> 6. Exit the Container.
-> 7. Delete the Namespace.
+### Practice On Your Own
 
+1. Create a Namesapce for your Pod.
+2. Create the Pod.
+3. List the running Pod.
+4. Enter inside the Container.
+5. Print the Environment Variable passed to the Container.
+6. Exit the Container.
+7. Delete the Namespace.
