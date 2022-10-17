@@ -1,4 +1,4 @@
-<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/main/assets/inject-data-into-containers/inject-data-into-containers.jpeg"></img>
+<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/inject-data-into-containers/assets/inject-data-into-containers/inject-data-into-containers.jpeg"></img>
 
 <h4 align="center">You Can Read It Anywhere </h4>
 
@@ -69,5 +69,6 @@ env:
   value: "https://github.com/thevedicdev"
 ```
 
-<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/main/assets/inject-data-into-containers/env-var.png"></img>
+<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/inject-data-into-containers/assets/inject-data-into-containers/env-var.png"></img>
+
 Here we are providing three data to the appliation running in our container.
