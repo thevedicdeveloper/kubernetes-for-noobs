@@ -1,4 +1,4 @@
-<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/main/assets/inject-data-into-containers.jpeg"></img>
+<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/main/assets/inject-data-into-containers/inject-data-into-containers.jpeg"></img>
 
 <h4 align="center">You Can Read It Anywhere </h4>
 
@@ -69,26 +69,5 @@ env:
   value: "https://github.com/thevedicdev"
 ```
 
-env-var.yaml
-
-```yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: envar-demo
-  labels:
-    purpose: demonstrate-envars
-spec:
-  containers:
-  - name: envar-demo-container
-    image: gcr.io/google-samples/node-hello:1.0
-    env:
-    - name: FOLLOW_ME_ON_TWITTER
-      value: "https://twitter.com/thevedicdev"
-    - name: FOLLOW_ME_ON_LINKEDIN
-      value: "https://www.linkedin.com/in/nishantkantojha/"
-    - name: FOLLOW_ME_ON_GITHUB
-      value: "https://github.com/thevedicdev"
-```
-
+<img align="center" src="https://raw.githubusercontent.com/thevedicdev/kubernetes-for-noobs/main/assets/inject-data-into-containers/env-var.png"></img>
 Here we are providing three data to the appliation running in our container.
